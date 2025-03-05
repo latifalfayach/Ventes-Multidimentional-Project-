@@ -1,0 +1,75 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>VentesMultidimentionalProject</Database>
+    <Server>DESKTOP-LT5I3II</Server>
+    <ConnectionString>DataSource=DESKTOP-LT5I3II;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>cCybcwAzEk0tfkKdJAwrpoE7cZI=15/12/2023 15:03:3715/12/2023 14:48:20</TimeStamp>
+        <ID>
+          <String>Data Warehouse DB</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>NmaxnFlwruYpExUipc0Wyjmo5Us=15/12/2023 14:48:4115/12/2023 14:48:40</TimeStamp>
+        <ID>
+          <String>Data Warehouse DB</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>BfaWu9jqCtomFa8ZZV1T4nLcCko=15/12/2023 14:48:5015/12/2023 14:48:50</TimeStamp>
+        <ID>
+          <String>Dim Produit</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>7eTOPaEwFaZ0GSdho+rHI+axvOE=15/12/2023 14:48:5915/12/2023 14:48:59</TimeStamp>
+        <ID>
+          <String>Dim Region</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>xa/LINCiPOLWgpaooOlVkzehW9o=15/12/2023 14:49:1115/12/2023 14:49:10</TimeStamp>
+        <ID>
+          <String>Dim Time</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>GJSXlxjmbKmHOs5cTPzyOgwjqsg=15/12/2023 14:49:2715/12/2023 14:49:27gT7pR6f6MO551kwLkKbH+WPtt+g=15/12/2023 14:49:2715/12/2023 14:49:27</TimeStamp>
+        <ID>
+          <String>Ventes</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>LAwOb069X0scJzQIy8VF9mOJqQA=10/12/2023 18:48:2110/12/2023 18:48:21</TimeStamp>
+      <ID>
+        <String>VentesMultidimentionalProject</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>false</ProcessingComplete>
+  <LastDeployed>2023-12-15T14:09:26.093333Z</LastDeployed>
+</DeploymentSnapshot>
